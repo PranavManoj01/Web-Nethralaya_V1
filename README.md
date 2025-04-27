@@ -43,9 +43,12 @@ WebNethralaya/
 │   ├── after_preprocessing.png
 │   └── heatmap.png
 └── README.md
-Sample Images from Model Pipeline
+## 📷 Sample Images from Model Pipeline
 
-Original Image	After Preprocessing	GradCAM Heatmap
+| **Original Image** | **After Preprocessing** | **GradCAM Heatmap** |
+|:------------------:|:-----------------------:|:-------------------:|
+| ![](./images/before_preprocessing.png) | ![](./images/after_preprocessing.png) | ![](./images/heatmap.png) |
+
 How to Run Locally
 Clone the repository:
 
