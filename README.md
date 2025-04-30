@@ -23,53 +23,14 @@ Backend: Python, Flask, PyTorch
 
 Libraries: Torchvision, Pillow, NumPy
 
-Project Structure
-pgsql
-Copy
-Edit
-WebNethralaya/
-├── frontend/
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
-├── backend/
-│   ├── app.py
-│   ├── model.pth
-│   └── requirements.txt
-├── notebook/
-│   └── G_L.ipynb
-├── images/
-│   ├── before_preprocessing.png
-│   ├── after_preprocessing.png
-│   └── heatmap.png
-└── README.md
+
 ## 📷 Sample Images from Model Pipeline
 
-| **Original Image** | **After Preprocessing** | **GradCAM Heatmap** |
-|:------------------:|:-----------------------:|:-------------------:|
-| ![](./images/before_preprocessing.png) | ![](./images/after_preprocessing.png) | ![](./images/heatmap.png) |
+| **After Preprocessing** | **GradCAM Heatmap** |
+|:-----------------------:|:-------------------:|
+| ![](./images/after_preprocessing.png) | ![](./images/heatmap.png) |
 
-How to Run Locally
-Clone the repository:
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/WebNethralaya.git
-Install backend dependencies:
-
-bash
-Copy
-Edit
-pip install -r backend/requirements.txt
-Start the Flask server:
-
-bash
-Copy
-Edit
-cd backend
-python app.py
-Open frontend/index.html in your browser.
 
 Upload a fundus image ➔ Get real-time AI predictions!
 
